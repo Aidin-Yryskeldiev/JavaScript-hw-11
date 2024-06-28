@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home Work 11</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="products">
+			<p class="text_cart">Cart</p>
+			<!-- 1 -->
+			<div class="product" id="product">
+				<span class="number">#1 <span class="text_nike">Nike</span></span>
+				<span class="productCount">0</span>
+				<button class="plus_minus" onclick="addProduct(this, 100)">+</button>
+				<button class="plus_minus" onclick="removeProduct(this, 100)">-</button>
+				<span class="price">$100</span>
+				<button class="button_delete" onclick="deleteProduct(this)">
+					Удалить
+				</button>
+			</div>
+			<!-- 1 -->
+			<!-- 1 -->
+			<div class="product" id="product">
+				<span class="number">#1 <span class="text_nike">Nike</span></span>
+				<span class="productCount">0</span>
+				<button class="plus_minus" onclick="addProduct(this, 120)">+</button>
+				<button class="plus_minus" onclick="removeProduct(this, 120)">-</button>
+				<span class="price">$120</span>
+				<button class="button_delete" onclick="deleteProduct(this)">
+					Удалить
+				</button>
+			</div>
+			<!-- 1 -->
+			<!-- 1 -->
+			<div class="product" id="product">
+				<span class="number">#1 <span class="text_nike">Nike</span></span>
+				<span class="productCount">0</span>
+				<button class="plus_minus" onclick="addProduct(this, 130)">+</button>
+				<button class="plus_minus" onclick="removeProduct(this, 130)">-</button>
+				<span class="price">$130</span>
+				<button class="button_delete" onclick="deleteProduct(this)">
+					Удалить
+				</button>
+			</div>
+			<!-- 1 -->
+		</div>
+		<p class="total">Total: $<span id="total">0</span></p>
+		<script src="./script.js"></script>
+	</body>
+</html>
